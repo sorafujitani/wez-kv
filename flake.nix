@@ -10,8 +10,9 @@
       in
       {
         devShells.default = pkgs.mkShell {
+          name = "wez-kv";
           packages = with pkgs; [
-            go
+            go_1_26
             goreleaser
             gopls
           ];
