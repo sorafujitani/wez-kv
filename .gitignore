@@ -27,6 +27,12 @@ go.work.sum
 # env file
 .env
 
+# Nix / direnv
+.direnv/
+
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# goreleaser
+dist/
