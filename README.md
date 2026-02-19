@@ -2,6 +2,8 @@
 
 Fuzzy-searchable TUI wrapper for [`wezterm show-keys`](https://wezterm.org/cli/show-keys.html). Parses the output and displays it in a color-coded, filterable table.
 
+![screenshot](assets/screenshot.png)
+
 ## Install
 
 ```bash
