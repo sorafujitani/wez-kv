@@ -29,9 +29,12 @@
 //
 //	brew install sorafujitani/tap/wkv
 //
-// Using Go:
+// If you have a Go development environment, you can also install with:
 //
 //	go install github.com/sorafujitani/wez-kv/cmd/wez-kv@latest
+//
+// Pre-built binaries are also available on the GitHub Releases page:
+// https://github.com/sorafujitani/wez-kv/releases
 package main
 
 import (
