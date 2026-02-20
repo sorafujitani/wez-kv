@@ -1,7 +1,7 @@
 version: 2
 project_name: wkv
 builds:
-  - main: ./cmd/wkv
+  - main: ./cmd/wez-kv
     binary: wkv
     env: [CGO_ENABLED=0]
     goos: [linux, darwin]

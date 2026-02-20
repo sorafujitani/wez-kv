@@ -17,7 +17,7 @@ brew install sorafujitani/tap/wkv
 If you have a Go development environment, you can also install with:
 
 ```bash
-go install github.com/sorafujitani/wez-kv/cmd/wkv@latest
+go install github.com/sorafujitani/wez-kv/cmd/wez-kv@latest
 ```
 
 ### GitHub Releases

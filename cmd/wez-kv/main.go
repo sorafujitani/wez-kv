@@ -1,4 +1,4 @@
-// wkv is a fuzzy-searchable TUI viewer for wezterm keybindings.
+// wez-kv is a fuzzy-searchable TUI viewer for wezterm keybindings.
 //
 // It runs "wezterm show-keys", parses the output, and displays it
 // in a color-coded, filterable table powered by Bubble Tea.
@@ -31,7 +31,7 @@
 //
 // Using Go:
 //
-//	go install github.com/sorafujitani/wez-kv/cmd/wkv@latest
+//	go install github.com/sorafujitani/wez-kv/cmd/wez-kv@latest
 package main
 
 import (
