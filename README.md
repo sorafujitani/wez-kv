@@ -6,7 +6,7 @@ Fuzzy-searchable TUI wrapper for [`wezterm show-keys`](https://wezterm.org/cli/s
 
 ## Install
 
-### Homebrew (macOS / Linux)
+### Homebrew
 
 ```bash
 brew install sorafujitani/tap/wkv
@@ -14,9 +14,15 @@ brew install sorafujitani/tap/wkv
 
 ### Go
 
+If you have a Go development environment, you can also install with:
+
 ```bash
 go install github.com/sorafujitani/wez-kv/cmd/wkv@latest
 ```
+
+### GitHub Releases
+
+Pre-built binaries are available on the [Releases](https://github.com/sorafujitani/wez-kv/releases) page. Supports macOS (Intel / Apple Silicon) and Linux (amd64 / arm64).
 
 ## Usage
 
