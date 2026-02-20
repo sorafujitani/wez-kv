@@ -6,6 +6,14 @@ Fuzzy-searchable TUI wrapper for [`wezterm show-keys`](https://wezterm.org/cli/s
 
 ## Install
 
+### Homebrew (macOS / Linux)
+
+```bash
+brew install sorafujitani/tap/wkv
+```
+
+### Go
+
 ```bash
 go install github.com/sorafujitani/wez-kv/cmd/wkv@latest
 ```

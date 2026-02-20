@@ -14,3 +14,13 @@ checksum:
   name_template: checksums.txt
 changelog:
   sort: asc
+brews:
+  - repository:
+      owner: sorafujitani
+      name: homebrew-tap
+      token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
+    directory: Formula
+    homepage: "https://github.com/sorafujitani/wezterm-keymap-viewer"
+    description: "Fuzzy-searchable TUI viewer for wezterm keybindings"
+    license: "MIT"
+    caveats: "wkv requires wezterm to be installed and available in your PATH."
