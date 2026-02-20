@@ -9,7 +9,7 @@ Fuzzy-searchable TUI wrapper for [`wezterm show-keys`](https://wezterm.org/cli/s
 ### Homebrew
 
 ```bash
-brew install sorafujitani/tap/wkv
+brew install sorafujitani/tap/wez-kv
 ```
 
 ### Go

@@ -27,7 +27,7 @@
 //
 // Using Homebrew:
 //
-//	brew install sorafujitani/tap/wkv
+//	brew install sorafujitani/tap/wez-kv
 //
 // If you have a Go development environment, you can also install with:
 //

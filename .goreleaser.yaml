@@ -15,7 +15,8 @@ checksum:
 changelog:
   sort: asc
 brews:
-  - repository:
+  - name: wez-kv
+    repository:
       owner: sorafujitani
       name: homebrew-tap
       token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
